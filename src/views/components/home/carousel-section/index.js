@@ -7,7 +7,7 @@ export default function CarouselSection(){
         <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
-                    <img className="w-100" src={carouselImgOne} alt="carousel-one" />
+                    <img className="w-100" src={carouselImgOne} alt="carousel-one-one" />
                     <div className="carousel-caption d-flex flex-row align-items-center justify-content-between">
                         <div className="p-0" style={{maxWidth: "650px", marginLeft: "9%", textAlign: "left"}}>
                             <h5 className="text-white text-uppercase mb-3 animated slideInDown">Creative & Innovative</h5>
