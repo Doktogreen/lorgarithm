@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Testimonial from "../testimonial";
-import AllJobs from "./all-jobs";
+import AllJobs from "./all-list";
 import JobCategory from "./job-category";
 import JobSearch from "./job-search";
 
