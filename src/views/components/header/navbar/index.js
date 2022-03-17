@@ -49,7 +49,7 @@ export default function NavBar(){
                     </div>
                 </li>
                 <li className="dropdown-toggle menu-item-has-children">
-                    <a href="#.">Enterprise<i className="ion ion-ios-arrow-down"></i></a>
+                    <a href="#.">For Enterprise<i className="ion ion-ios-arrow-down"></i></a>
                     <div className="menu-subs menu-mega menu-column-4">
                         <div className="list-item">
                             <h4 className="title">Coorporate Training</h4>
@@ -108,6 +108,8 @@ export default function NavBar(){
                         </div>
                     </div> */}
                     
+                    <a href="service.html" className="nav-item nav-link">For Employers</a>
+                    <a href="index.html" className="nav-item nav-link">For Tech Talents</a>
                     <li className="dropdown-toggle menu-item-has-children">
                     <a href="#.">Schools <i className="ion ion-ios-arrow-down"></i></a>
                     <div className="menu-subs menu-mega menu-column-4">
@@ -137,9 +139,6 @@ export default function NavBar(){
                         </div>
                     </div>
                 </li>
-                <a href="service.html" className="nav-item nav-link">Blog</a>
-                <a href="service.html" className="nav-item nav-link">Jobs</a>
-                <a href="index.html" className="nav-item nav-link">Talent Pool</a>
                 </div>
                 <butaton type="button" className="btn text-primary ms-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i className="fa fa-search"></i></butaton>
                 <a href="..." className="btn btn-primary py-2 px-4 ms-3">Login</a>
