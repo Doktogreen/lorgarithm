@@ -13,17 +13,22 @@ import Team from "./team";
 import Testimonial from "./testimonial";
 import Vendor from "./vendor";
 
-export  {
-            CarouselSection,
-            FullScreenSearch,
-            Facts,
-            About,
-            Features,
-            Services,
-            Pricing,
-            Quotes,
-            Testimonial,
-            Team,
-            Blog,
-            Vendor 
-        }
+export default function Home(){
+    return(
+        <Fragment>
+            <CarouselSection />
+            <FullScreenSearch />
+            <Facts />
+            <About />
+            <Features />
+            <Services />
+            <Pricing />
+            <Quotes />
+            <Testimonial />
+            <Team />
+            <Blog />
+            <Vendor />
+            {/* <Globe /> */}
+        </Fragment>
+    )
+}

@@ -19,63 +19,47 @@ export default function NavBar(){
             <div className="collapse navbar-collapse" id="navbarCollapse">
                 <div className="navbar-nav ms-auto py-0">
                     
-                <li class="dropdown-toggle menu-item-has-children">
-                    <a href="#.">About<i class="ion ion-ios-arrow-down"></i></a>
-                    <div class="menu-subs menu-mega menu-column-4">
-                        <div class="list-item text-center">
+                <li className="dropdown-toggle menu-item-has-children">
+                    <a href="#.">About<i className="ion ion-ios-arrow-down"></i></a>
+                    <div className="menu-subs menu-mega menu-column-4">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-01.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product One</h4>
+                                <h4 className="title">Product One</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-02.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Two</h4>
+                                <h4 className="title">Product Two</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-03.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Three</h4>
+                                <h4 className="title">Product Three</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-04.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Four</h4>
+                                <h4 className="title">Product Four</h4>
                             </a>
                         </div>
                     </div>
                 </li>
-                <li class="dropdown-toggle menu-item-has-children">
-                    <a href="#.">Enterprise<i class="ion ion-ios-arrow-down"></i></a>
-                    <div class="menu-subs menu-mega menu-column-4">
-                        <div class="list-item">
-                            <h4 class="title">Men's Fashion</h4>
-                            <ul>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                            </ul>
-                            <h4 class="title">Kid's Fashion</h4>
-                            <ul>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                            </ul>
-                        </div>
-                        <div class="list-item">
-                            <h4 class="title">Women's Fashion</h4>
-                            <ul>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                                <li><a href="...">Product List</a></li>
-                            </ul>
-                            <h4 class="title">Health & Beauty</h4>
+                <li className="dropdown-toggle menu-item-has-children">
+                    <a href="#.">Enterprise<i className="ion ion-ios-arrow-down"></i></a>
+                    <div className="menu-subs menu-mega menu-column-4">
+                        <div className="list-item">
+                            <h4 className="title">Coorporate Training</h4>
+                            {/* <h6>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                when an unknown printer took a galley of type and scrambled it to make a type 
+                                specimen book.
+                            </h6> */}
+                            <h4 className="title">Kid's Fashion</h4>
                             <ul>
                                 <li><a href="...">Product List</a></li>
                                 <li><a href="...">Product List</a></li>
@@ -83,8 +67,24 @@ export default function NavBar(){
                                 <li><a href="...">Product List</a></li>
                             </ul>
                         </div>
-                        <div class="list-item">
-                            <h4 class="title">Home & Lifestyle</h4>
+                        <div className="list-item">
+                            <h4 className="title">Women's Fashion</h4>
+                            <ul>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                            </ul>
+                            <h4 className="title">Health & Beauty</h4>
+                            <ul>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                                <li><a href="...">Product List</a></li>
+                            </ul>
+                        </div>
+                        <div className="list-item">
+                            <h4 className="title">Home & Lifestyle</h4>
                             <ul>
                                 <li><a href="...">Product List</a></li>
                                 <li><a href="...">Product List</a></li>
@@ -95,7 +95,7 @@ export default function NavBar(){
                                 <li><a href="...">Product List</a></li>
                             </ul>
                         </div>
-                        <div class="list-item">
+                        <div className="list-item">
                             <img src="./assets/product-05.jpg" loading="lazy" alt="Product Imag" />
                         </div>
                     </div>
@@ -108,31 +108,31 @@ export default function NavBar(){
                         </div>
                     </div> */}
                     
-                    <li class="dropdown-toggle menu-item-has-children">
-                    <a href="#.">Schools <i class="ion ion-ios-arrow-down"></i></a>
-                    <div class="menu-subs menu-mega menu-column-4">
-                        <div class="list-item text-center">
+                    <li className="dropdown-toggle menu-item-has-children">
+                    <a href="#.">Schools <i className="ion ion-ios-arrow-down"></i></a>
+                    <div className="menu-subs menu-mega menu-column-4">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-01.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product One</h4>
+                                <h4 className="title">Product One</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-02.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Two</h4>
+                                <h4 className="title">Product Two</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-03.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Three</h4>
+                                <h4 className="title">Product Three</h4>
                             </a>
                         </div>
-                        <div class="list-item text-center">
+                        <div className="list-item text-center">
                             <a href="...">
                                 <img src="./assets/product-04.jpg" loading="lazy" alt="Product Imag" />
-                                <h4 class="title">Product Four</h4>
+                                <h4 className="title">Product Four</h4>
                             </a>
                         </div>
                     </div>

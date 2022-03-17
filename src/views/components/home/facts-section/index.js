@@ -12,8 +12,8 @@ export default function Facts(){
                             <i className="fa fa-users text-primary"></i>
                         </div>
                         <div className="ps-4">
-                            <h5 className="text-white mb-0">Happy Clients</h5>
-                            <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 className="text-white mb-0">Happy Companies</h5>
+                            <h1 className="text-white mb-0" data-toggle="counter-up">1234</h1>
                         </div>
                     </div>
                 </div>
@@ -24,7 +24,7 @@ export default function Facts(){
                         </div>
                         <div className="ps-4">
                             <h5 className="text-primary mb-0">Projects Done</h5>
-                            <h1 className="mb-0" data-toggle="counter-up">12345</h1>
+                            <h1 className="mb-0" data-toggle="counter-up">1020</h1>
                         </div>
                     </div>
                 </div>
@@ -34,8 +34,8 @@ export default function Facts(){
                             <i className="fa fa-award text-primary"></i>
                         </div>
                         <div className="ps-4">
-                            <h5 className="text-white mb-0">Win Awards</h5>
-                            <h1 className="text-white mb-0" data-toggle="counter-up">12345</h1>
+                            <h5 className="text-white mb-0">Happy Candidates</h5>
+                            <h1 className="text-white mb-0" data-toggle="counter-up">14345</h1>
                         </div>
                     </div>
                 </div>
