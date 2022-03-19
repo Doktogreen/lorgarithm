@@ -1,7 +1,10 @@
 import React, { Fragment, useState } from "react";
 import carouselImgOne from '../../../assets/img/carousel-1.jpg';
-import carouselImgTwo from '../../../assets/img/carousel-2.jpg';
-
+// import carouselImgTwo from '../../../assets/img/carousel-2.jpg';
+import EncomEarthGlobe from "./encomglobe";
+import FloatingTalent from "./floating_talent_slider";
+import Type from "./typewriter";
+import './index.css'
 
 export function LandingButtons(){
     const [pageX, setPageX] = useState(2);
@@ -22,34 +25,36 @@ export default function Landing(){
                 <div className="carousel-item active">
                     <img className="w-100" src={carouselImgOne} alt="carousel-one-one" />
                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div className="p-3" style={{maxWidth: "1100px"}}>
-                            {/* <h5 className="text-white text-uppercase mb-3 animated slideInDown">Lorgarithm</h5> */}
-                            <h1 className="display-1 text-white mb-md-4 animated zoomIn">Hello, What Can We Serve You Today?</h1>
+                        <div className="p-3" style={{maxWidth: "1100px", position: "absolute"}}>
+                            <h1 className="display-1 text-white mb-md-4 animated zoomIn">Hire Competent</h1>
+                            <h1 className="display-1 text-white mb-md-4 animated zoomIn"><Type /></h1>
                             <LandingButtons />
                         </div>
+                        <EncomEarthGlobe />
                     </div>
                 </div>
-                <div className="carousel-item">
+                {/* <div className="carousel-item">
                     <img className="w-100" src={carouselImgTwo} alt="carousel-two" />
                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3" style={{maxWidth: "1100px"}}>
-                            {/* <h5 className="text-white text-uppercase mb-3 animated slideInDown">Lorgarithm</h5> */}
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn">"Well done, is better than well said."</h1>
                             <LandingButtons />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
-            {/* <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel"
+            <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="prev">
-                <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span>
+                {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Previous</span> */}
+                <FloatingTalent />
             </button>
             <button className="carousel-control-next" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="next">
-                <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span>
-            </button> */}
+                {/* <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                <span className="visually-hidden">Next</span> */}
+                <FloatingTalent />
+            </button>
         </div>
     // {/* <!-- Navbar & Carousel End --> */}
     )
