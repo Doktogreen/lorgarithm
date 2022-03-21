@@ -6,7 +6,7 @@ export default function FloatingTalent(){
         <div class="container">
             <div class="avatar">
                 <a href="https://codepen.io/MarioDesigns/">
-                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png" alt="Skytsunami" />
+                <img src="https://res.cloudinary.com/skiltime/image/upload/v1611402484/image_29_m4umlm.png" alt="Lorgaritm Talent" />
                 </a>
             </div>
             <div class="content">

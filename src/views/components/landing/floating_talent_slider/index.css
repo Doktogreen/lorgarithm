@@ -48,11 +48,11 @@ h2 {
   }
   
   .avatar {
-    width: 150px;
-    height: 150px;
+    width: 10vw;
+    height: 10vh;
     box-sizing: border-box;
     border: 5px white solid;
-    border-radius: 50%;
+    border-radius: 5%;
     overflow: hidden;
     box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
     transform: translatey(0px);
