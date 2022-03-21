@@ -10,6 +10,8 @@
     "cobe": "^0.4.1",
     "encom-globe": "^0.5.4",
     "encom-globe-react": "^0.0.3",
+    "less": "^4.1.2",
+    "node-sass": "^7.0.1",
     "pusher.color": "^0.2.4",
     "react": "^17.0.2",
     "react-bootstrap": "^2.2.0",
@@ -19,6 +21,7 @@
     "react-scripts": "5.0.0",
     "redux": "^4.1.2",
     "redux-thunk": "^2.4.1",
+    "sass": "^1.49.9",
     "three": "^0.122.0",
     "vec2": "^1.6.1",
     "web-vitals": "^2.1.4"
