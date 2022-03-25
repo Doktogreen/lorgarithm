@@ -1,12 +1,12 @@
 import React from 'react';
-import './index.css';
+import './index.scss';
 
 export default function FloatingTalent(){
     return(
         <div class="container">
             <div class="avatar">
                 <a href="https://codepen.io/MarioDesigns/">
-                <img src="https://res.cloudinary.com/skiltime/image/upload/v1611402484/image_29_m4umlm.png" alt="Lorgaritm Talent" />
+                    <img src="https://res.cloudinary.com/skiltime/image/upload/v1611402484/image_29_m4umlm.png" alt="Lorgaritm Talent" />
                 </a>
             </div>
             <div class="content">

@@ -3,11 +3,12 @@ import React from 'react'
 import { EncomGlobe } from 'encom-globe-react'
 import 'encom-globe-react/dist/index.css'
 
-const marker1 = {lat: 49.25, lon: -123.1, label: "Vancouver"};
+const marker1 = {lat: 49.25, lon: -123.1, label: "Toronto"};
+const marker5 = {lat: 130.6895, lon: 100.69171, label: "Silicon Valley"};
 const marker2 = {lat: 35.6895, lon: 129.69171, label: "Tokyo", connected: true};
 const marker3 = {lat: 60.6895, lon: 110.69171, label: "Nigeria", connected: true};
-const marker4 = {lat: 90.6895, lon: 100.69171, label: "Silicon Valley", connected: true};
-const demoMarkers = [marker1, marker2, marker3, marker4];
+const marker4 = {lat: 90.6895, lon: 100.69171, label: "L o r g a r i t h m    i n c.", connected: true};
+const demoMarkers = [marker1, marker2, marker3, marker4, marker5];
 
 const EncomEarthGlobe = () => {
 

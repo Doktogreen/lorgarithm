@@ -2,9 +2,9 @@ import React, { Fragment, useState } from "react";
 import carouselImgOne from '../../../assets/img/carousel-1.jpg';
 // import carouselImgTwo from '../../../assets/img/carousel-2.jpg';
 import EncomEarthGlobe from "./encomglobe";
-import FloatingTalent from "./floating_talent_slider";
 import Type from "./typewriter";
-import './index.css'
+import './index.scss'
+import AppearingSlider from "./floating_talent_slider/appearingSlider";
 
 export function LandingButtons(){
     const [pageX, setPageX] = useState(2);
@@ -20,41 +20,28 @@ export function LandingButtons(){
 }
 export default function Landing(){
     return(
-        <div id="header-carousel" className="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div id="header-carousel" className="" data-bs-ride="">
             <div className="carousel-inner">
                 <div className="carousel-item active">
                     <img className="w-100" src={carouselImgOne} alt="carousel-one-one" />
-                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div className="p-3" style={{maxWidth: "1100px", position: "absolute"}}>
+                    <div className="w-100 carousel-caption d-flex flex-row align-items-center justify-content-between">
+                        <div className="p-5" style={{ textAlign: "left", width: "100%", display: "flex", justifyContent: "space-between", flexWrap: "wrap", position: "absolute"}}>
+                            <div>
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn">Hire Competent</h1>
                             <h1 className="display-1 text-white mb-md-4 animated zoomIn"><Type /></h1>
                             <LandingButtons />
+                            </div>
+                            <AppearingSlider />
                         </div>
-                        <EncomEarthGlobe />
+                        <div className="globe">
+                            <EncomEarthGlobe />
+                        </div>
+                        
                     </div>
                 </div>
-                {/* <div className="carousel-item">
-                    <img className="w-100" src={carouselImgTwo} alt="carousel-two" />
-                    <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div className="p-3" style={{maxWidth: "1100px"}}>
-                            <h1 className="display-1 text-white mb-md-4 animated zoomIn">"Well done, is better than well said."</h1>
-                            <LandingButtons />
-                        </div>
-                    </div>
-                </div> */}
+                
             </div>
-            <button className="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                {/* <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Previous</span> */}
-                <FloatingTalent />
-            </button>
-            <button className="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                {/* <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                <span className="visually-hidden">Next</span> */}
-                <FloatingTalent />
-            </button>
+            
         </div>
     // {/* <!-- Navbar & Carousel End --> */}
     )

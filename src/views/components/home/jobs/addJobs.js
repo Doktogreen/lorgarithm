@@ -25,7 +25,7 @@ const AddJob = ({addJob}) => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Add film</Modal.Title>
+          <Modal.Title>Add Job</Modal.Title>
         </Modal.Header>
             <input placeholder="Image URL"  value={newJob.image} name="image" onChange ={handelNewJob}/>
             <input placeholder="Rating" value={newJob.rating} name="rating"  onChange  ={handelNewJob}/>
