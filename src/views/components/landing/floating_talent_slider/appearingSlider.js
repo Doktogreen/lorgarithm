@@ -8,19 +8,19 @@ export default function AppearingSlider(){
             <div className="carousel-inner w-100" role="listbox">
                 {/* <!--First slide--> */}
                 <div className="carousel-item active">
-                <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                <img className="d-block w-100" src="https://res.cloudinary.com/skiltime/image/upload/v1648283562/smile1-removebg-preview_d1ubvr.png"
                     alt="First slide" />
                 </div>
                 {/* <!--/First slide--> */}
                 {/* <!--Second slide--> */}
                 <div className="carousel-item">
-                <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                <img className="d-block w-100" src="https://res.cloudinary.com/skiltime/image/upload/v1648284229/CFA_AlphaSummit_2021_HP-ForegroundImage-removebg-preview_tzeliy.png"
                     alt="Second slide" />
                 </div>
                 {/* <!--/Second slide--> */}
                 {/* <!--Third slide--> */}
                 <div className="carousel-item">
-                <img className="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                <img className="d-block w-100" src="https://res.cloudinary.com/skiltime/image/upload/v1648283727/smile6-removebg-preview_wnnlav.png"
                     alt="Third slide" />
                 </div>
                 {/* <!--/Third slide--> */}

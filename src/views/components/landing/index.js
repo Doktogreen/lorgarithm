@@ -13,7 +13,7 @@ export function LandingButtons(){
     return(
         <Fragment>
             <a href="quote.html" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Hire Tech Talents</a>
-            <a href="..." className="btn btn-outline-brown py-md-3 px-md-5 animated slideInRight">Find Tech Solutions</a>
+            {/* <a href="..." className="btn btn-outline-brown py-md-3 px-md-5 animated slideInRight">Find Tech Solutions</a> */}
             <a href="quote.html" className="btn btn-orange py-md-3 px-md-5 me-3 animated slideInLeft">Get Employed</a>
         </Fragment>
     )
@@ -36,7 +36,6 @@ export default function Landing(){
                         <div className="globe">
                             <EncomEarthGlobe />
                         </div>
-                        
                     </div>
                 </div>
                 
